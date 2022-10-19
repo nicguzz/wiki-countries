@@ -63,7 +63,7 @@ const alpha2Code = ref();
 // Constant to use the route from the vue-router inside of this specific SFC - SIngle fIle COmponent
 const route = useRoute();
 
-// Function that will handle the fetching of info from api in order to provide visibolity of each country. - BIGGEST/HEAVY/HIERACHICAL FUNCTION INSIDE THIS FILE
+// Function that will handle the fetching of info from api in order to provide visibility of each country. - BIGGEST/HEAVY/HIERACHICAL FUNCTION INSIDE THIS FILE
 const getCountryByAlphaCode = async () => {
   // variable to get the current route from the app
   const alpha3Code = route.params.alpha3Code;
@@ -87,7 +87,6 @@ const getCountryByAlphaCode = async () => {
 
   return { name, capital, borders, area, alpha2Code, countryInfo };
 };
-
 //Usamos onMounted() hook para ejecutar la funcion getCountryByAlphaCode() antes de que se renderize el componente como tal para obtener la informacion de la api y poder plasmarla dentro de la UI
 onMounted(() => {
   getCountryByAlphaCode();

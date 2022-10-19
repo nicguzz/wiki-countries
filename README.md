@@ -1,5 +1,7 @@
 # wiki-countries
 
+<img src="https://res.cloudinary.com/dbmzbapuj/image/upload/v1666189552/Screenshot_2022-10-19_at_16.25.45_bxdjo8.png" alt="250"/>
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
